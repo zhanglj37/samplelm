@@ -3,15 +3,13 @@
 
 update: May 22, 2020
 
-[![Build Status](https://travis-ci.org/zhanglj37/samplelm.svg)](https://travis-ci.org/zhanglj37/samplelm)
-[![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/samplelm)](https://cran.r-project.org/package=samplelm)
-[![](https://cranlogs.r-pkg.org/badges/grand-total/samplelm)](https://cran.r-project.org/package=samplelm)
+
 
 ## Description
 
 Using Monte Carlo simulation studies, this "samplelm" (Sample size determination for Latent Mediation analysis) package can explore the least sample size for your model.
 
-![1590078098412](C:\Users\Lijin Zhang\AppData\Roaming\Typora\typora-user-images\1590078098412.png)
+![example](https://www.lijinzhang.xyz/images/samplelm.jpg)
 
 The least sample size is chosen based on the following criteria:
 
