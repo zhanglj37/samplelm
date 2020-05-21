@@ -3,7 +3,7 @@
 
 update: May 22, 2020
 
-author: Rongqian Sun, Lijin Zhang, Junhao Pan
+author: Lijin Zhang, Rongqian Sun, Junhao Pan
 
 ## Description
 
