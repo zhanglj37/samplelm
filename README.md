@@ -3,6 +3,8 @@
 
 update: May 22, 2020
 
+author: Rongqian Sun, Lijin Zhang, Junhao Pan
+
 ## Description
 
 Using Monte Carlo simulation studies, this "samplelm" (Sample size determination for Latent Mediation analysis) package can explore the least sample size for your model.
