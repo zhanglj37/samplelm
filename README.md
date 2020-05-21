@@ -9,11 +9,11 @@ update: May 22, 2020
 
 Using Monte Carlo simulation studies, this "samplelm" (Sample size determination for Latent Mediation analysis) package can explore the least sample size for your model.
 
-![example](https://www.lijinzhang.xyz/images/samplelm.jpg)
+example: https://www.lijinzhang.xyz/images/samplelm.jpg
 
 The least sample size is chosen based on the following criteria:
 
-For mediation effect  $a*b$ :
+For mediation effect  a*b :
 
 1. power is no less than 0.8;
 
