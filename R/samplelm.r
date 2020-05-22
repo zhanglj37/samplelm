@@ -31,7 +31,7 @@ checking_conds<-function(ly_matrix)
 	result<-readModels("sample.out")
 	##### check point estimate and standard error estimate biases and coverage rate
 	loc_inter = which(result$parameters$unstandardized[,1] == "Intercepts")
-	loc_res = which(result$parameters$unstandardized[,1] == " Residual.Variances")
+	loc_res = which(result$parameters$unstandardized[,1] == "Residual.Variances")
 	loc_all = c(loc_inter, loc_res)
 	loc_new = which(result$parameters$unstandardized[,1] == "New.Additional.Parameters")
 	
@@ -68,3 +68,4 @@ adjustment<- function(ly_matrix, a, b, c, estimator, n0 = 300)
 	ad_result = list(sample_size = n, checking_results = checking_result)
 	return(ad_result)
 }
+
