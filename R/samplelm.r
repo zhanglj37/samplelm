@@ -32,7 +32,8 @@ checking_conds<-function(ly_matrix)
 	##### check point estimate and standard error estimate biases and coverage rate
 	loc_inter = which(result$parameters$unstandardized[,1] == "Intercepts")
 	loc_res = which(result$parameters$unstandardized[,1] == "Residual.Variances")
-	loc_all = c(loc_inter, loc_res)
+	loc_var = which(result$parameters$unstandardized[,1] == "Variances")
+	loc_all = c(loc_inter, loc_var, loc_res)
 	loc_new = which(result$parameters$unstandardized[,1] == "New.Additional.Parameters")
 	
 	param_avg<-result$parameters$unstandardized$average[-loc_all]
